@@ -10,7 +10,17 @@ permissions:
   id-token: write
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check HTML
+        run: npx --yes html-validate index.html
+
   deploy:
+    needs: check
     runs-on: ubuntu-latest
     environment:
       name: github-pages
