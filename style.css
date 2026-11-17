@@ -10,3 +10,21 @@ body {
 h1 {
   color: #1f6feb;
 }
+
+nav a {
+  margin-right: 16px;
+  color: #1f6feb;
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #1f6feb;
+}
+
+footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  color: #777;
+  font-size: 14px;
+}
