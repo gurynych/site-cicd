@@ -6,8 +6,9 @@ import shutil
 
 PAGES = [
     ("index.html", "Главная"),
-    ("about.html", "О проекте"),
-    ("deploy.html", "Как работает автодеплой"),
+    ("games.html", "Игры"),
+    ("prices.html", "Тарифы"),
+    ("contacts.html", "Контакты"),
 ]
 
 
