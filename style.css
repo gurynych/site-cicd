@@ -3,23 +3,40 @@ body {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
-  background-color: #f4f6f8;
+  background-color: #f6f8f4;
   color: #222;
 }
 
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
 h1 {
-  color: #1f6feb;
+  color: #2e7d32;
 }
 
 nav a {
   margin-right: 16px;
-  color: #1f6feb;
+  color: #2e7d32;
   text-decoration: none;
 }
 
 nav a.active {
   font-weight: bold;
-  border-bottom: 2px solid #1f6feb;
+  border-bottom: 2px solid #2e7d32;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  text-align: left;
 }
 
 footer {
